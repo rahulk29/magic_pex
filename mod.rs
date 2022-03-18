@@ -2,7 +2,7 @@ use magic_vlsi::MagicInstance;
 
 use crate::{
     error::Result,
-    verification::pex::{Pex, PexInput, PexOpts, PexOutput},
+    pex::{Pex, PexInput, PexOpts, PexOutput},
 };
 
 #[cfg(test)]

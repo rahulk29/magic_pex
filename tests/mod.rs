@@ -1,6 +1,6 @@
 use std::path::PathBuf;
 
-use crate::verification::pex::{Pex, PexInput, PexOpts};
+use crate::pex::{Pex, PexInput, PexOpts};
 
 use super::MagicPex;
 
