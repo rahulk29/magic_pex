@@ -5,6 +5,7 @@ use crate::pex::{Pex, PexInput, PexOpts};
 use super::MagicPex;
 
 #[test]
+#[ignore]
 fn test_pex_sky130_nand2() -> Result<(), Box<dyn std::error::Error>> {
     let work_dir: PathBuf = "/tmp/sram22/tests/pex/nand2".into();
     let base = PathBuf::from(env!("CARGO_MANIFEST_DIR"));
@@ -21,6 +22,7 @@ fn test_pex_sky130_nand2() -> Result<(), Box<dyn std::error::Error>> {
 }
 
 #[test]
+#[ignore]
 fn test_pex_sky130_bitcell() -> Result<(), Box<dyn std::error::Error>> {
     let work_dir: PathBuf = "/tmp/sram22/tests/pex/bitcell".into();
     let base = PathBuf::from(env!("CARGO_MANIFEST_DIR"));
